@@ -6,7 +6,7 @@ public class PlayerBehaviourScript : MonoBehaviour {
 
 	public Vector2 speed = new Vector2 (50, 50);
 
-	private Vector2 movement = new Vector2(1f,2f);
+	private Vector2 movement;
 	private Rigidbody2D rgdb2D = new Rigidbody2D();
 
 	// Use this for initialization
